@@ -9,7 +9,7 @@ output: word_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-![](C:\Users\Acer\Desktop\Coursera Google Data Analytics\8_Google Data Analytics Capstone Complete a Case Study\Cyclistic data new\R Markdown report\Cyclistic.jpg)
+![](...xxx...xxx...)
 
 ## Overview
 This report is a part of the "[Google Data Analytics Professional Certificate's](https://www.coursera.org/professional-certificates/google-data-analytics?utm_source=gg&utm_medium=sem&utm_campaign=15-GoogleDataAnalytics-ROW&utm_content=15-GoogleDataAnalytics-ROW&campaignid=12566515400&adgroupid=117869292685&device=c&keyword=google%20data%20analytics%20professional%20certificate&matchtype=p&network=g&devicemodel=&adpostion=&creativeid=507290840624&hide_mobile_promo&gclid=Cj0KCQjwlOmLBhCHARIsAGiJg7nCDJoKyJBvSNg_ZxabdVBTbqVrKCXJUKI_nAEzpv0AmrXkmcYWZ9kaAqIPEALw_wcB)" capstone project offered by [Coursera](https://www.coursera.org/). 
@@ -55,13 +55,13 @@ Once unzipped, the data files were in **comma-separated values (.csv)** format. 
 The following picture shows the unzipped and renamed files automatically sorted by the given prefixes in a folder under Windows 10 operating system:
 
 
-![*__Figure 2.1: The list of unzipped files seen in a folder on a Windows 10 machine__*](C:/Users/Acer/Desktop/Coursera Google Data Analytics/8_Google Data Analytics Capstone Complete a Case Study/Cyclistic data new/R Markdown report/unzipped files in folder.jpg)
+![*__Figure 2.1: The list of unzipped files seen in a folder on a Windows 10 machine__*](...xxx...xxx...)
 
 
 Some files are relatively smaller than the rest. This can be an evidence of significantly smaller number of observations in those files:
 
 
-![*__Figture 2.2: Files that are relatively small compared to the rest__*](C:/Users/Acer/Desktop/Coursera Google Data Analytics/8_Google Data Analytics Capstone Complete a Case Study/Cyclistic data new/R Markdown report/unzipped files in folder_smaller.jpg)
+![*__Figture 2.2: Files that are relatively small compared to the rest__*](...xxx...xxx...)
 
 
 At this point, the data was ready to be processed. It is worth noting that this data was, per the scenario, provided directly by Cyclistic. This data is **secondary data**. This means that the analyst didn't collect this data by himself, the data was provided to the analyst by a party/organization that collected the data and directly involve in the analysis process as stakeholders.
@@ -124,7 +124,7 @@ $ member_casual      <chr> "casual", "casual", "casual", "c~
 From the above result, each of the **13 variables** in **SEP21** seems to have been assigned its correct data type. Every data frame was checked with the **glimpse()** function and the number of rows and columns and other exploratory information were recorded in a temporary summary table, in this case, in **Excel**:
 
 
-![*__Figure 3.2.1.1: A temporary table summarizing the exploratory results of the data sets in an Excel table__*](C:/Users/Acer/Desktop/Coursera Google Data Analytics/8_Google Data Analytics Capstone Complete a Case Study/Cyclistic data new/R Markdown report/excel summary_1.jpg)
+![*__Figure 3.2.1.1: A temporary table summarizing the exploratory results of the data sets in an Excel table__*](...xxx...xxx...)
 
 
 From the above table, each data frame contains varying number of rows, but the most important point is that they all have the same number of columns, presumably with the same data type in each column.
@@ -309,7 +309,7 @@ column index: **12**, column name: **end_lng**\
 This specific information about NAs was also obtained from the rest of the data frames and was added to the Excel temporary summary table:
 
 
-![*__Figure 3.2.3.1: A temporary table summarizing the exploratory results of the data sets in an Excel table, including column indices of each data frame containing NAs__*](C:/Users/Acer/Desktop/Coursera Google Data Analytics/8_Google Data Analytics Capstone Complete a Case Study/Cyclistic data new/R Markdown report/excel summary_2.jpg)
+![*__Figure 3.2.3.1: A temporary table summarizing the exploratory results of the data sets in an Excel table, including column indices of each data frame containing NAs__*](...xxx...xxx...)
 
 
 From the above table, it could be seen that every data frame have the same columns with NAs values. These columns contains the information about the starting and ending stations of the bikes. NAs in these columns can mean that riders did not take off from stations, nor did they park the bikes at stations.
@@ -375,7 +375,7 @@ $ member_casual      <chr> "casual", "casual", "casual", "cas~
 The result of "**glimpse(alldata)**" returned a data frame of **5,136,261** rows and **13** columns. The number 5,136,261 was equal to the sum of all rows in all of the smaller data frames. 
 
 
-![*__Figure 3.2.5.1: The total number of rows in the temporary excel table matches that calculated with the glimpse() function applied to the "alldata" data frame__*](C:\Users\Acer\Desktop\Coursera Google Data Analytics\8_Google Data Analytics Capstone Complete a Case Study\Cyclistic data new\R Markdown report\excel summary_3.jpg)
+![*__Figure 3.2.5.1: The total number of rows in the temporary excel table matches that calculated with the glimpse() function applied to the "alldata" data frame__*](...xxx...xxx...)
 
 
 The data type integrity of the **alldata** data frame was also preserved. 
@@ -553,7 +553,7 @@ In this part of the report, insights extracted from the data with various visual
 The data about the monthly number of rides recorded in the temporary table in Excel can be quickly visualized to demonstrate that there are more bike trips in warm months than in cold months. This trend is to be expected from the data and can serve as another layer of confirmation that the data collected was valid. 
 
 
-![*__Figure 4.1.1: A quick visualization that shows number of monthly rides from October 2020 to September 2021. Notice how the number increases and decreases in different times of year.__*](C:/Users/Acer/Desktop/Coursera Google Data Analytics/8_Google Data Analytics Capstone Complete a Case Study/Cyclistic data new/R Markdown report/number of monthly rides.jpg)
+![*__Figure 4.1.1: A quick visualization that shows number of monthly rides from October 2020 to September 2021. Notice how the number increases and decreases in different times of year.__*](...xxx...xxx...)
 
 
 ### 4.2 Comparing number of rides between "casual" and "member" customers
@@ -602,7 +602,7 @@ ggplot(data=alldata)+
 ```
 
 
-![*__Figure 4.2.1.1: A pie chart showing numbers of rides and their percentage values from each customer type__*](C:\Users\Acer\Desktop\Coursera Google Data Analytics\8_Google Data Analytics Capstone Complete a Case Study\Cyclistic data new\Copy\analysis\number of rides_pie chart.jpeg)
+![*__Figure 4.2.1.1: A pie chart showing numbers of rides and their percentage values from each customer type__*](...xxx...xxx...)
 
 
 #### 4.2.2 Looking at the Sattistics of the Time each Customer Type Spent Riding
@@ -623,7 +623,7 @@ ggplot(data=alldata)+
 ```
 
 
-![*__Figure 4.2.2.1: The first box plot that doesn't give any statistical view. There are simply too many outliers.__*](C:\Users\Acer\Desktop\Coursera Google Data Analytics\8_Google Data Analytics Capstone Complete a Case Study\Cyclistic data new\Copy\analysis\trip duration boxplot_1.jpeg)
+![*__Figure 4.2.2.1: The first box plot that doesn't give any statistical view. There are simply too many outliers.__*](...xxx...xxx...g)
 
 
 Not much information could be gained from this plot, save for the obvious that there were too many outliers with values much higher than the means from the two boxes that they were crushed flat on the x-axis. 
@@ -744,7 +744,7 @@ ggplot(data=alldata_adj)+
 ```
 
 
-![*__Figure 4.2.2.2: A new box plot with statistics of ride duration from both customer groups__*](C:\Users\Acer\Desktop\Coursera Google Data Analytics\8_Google Data Analytics Capstone Complete a Case Study\Cyclistic data new\Copy\analysis\trip duration boxplot_2.jpeg)
+![*__Figure 4.2.2.2: A new box plot with statistics of ride duration from both customer groups__*](...xxx...xxx...)
 
 
 Data records containing zeros duration were removed from the original data set. The zero-free data was named "**alldata_adj**. From this point onward, any new modification of the data set would be based on the **alldata_adj** data set.
@@ -797,7 +797,7 @@ ggplot(data=alldata_adj)+
 ```
 
 
-![*__Figure 4.2.3.1: Number of Rides of Different Bike Types from both Customer Groups__*](C:\Users\Acer\Desktop\Coursera Google Data Analytics\8_Google Data Analytics Capstone Complete a Case Study\Cyclistic data new\Copy\analysis\grouped bar chart_bike type.jpeg)
+![*__Figure 4.2.3.1: Number of Rides of Different Bike Types from both Customer Groups__*](...xxx...xxx...)
 
 
 From the bar chart above, it appeared that the "**classic bike**" was the most popular bike type for both group of customers. The least popular was the **docked** type which could mean the bikes that were parked "docked" at designated stations.
@@ -865,10 +865,10 @@ ggmap(get_map(chg,maptype="toner-lite"))+
 ```
 
 
-![*__Figure 4.2.4.1: Starting locations in Chicago, IL for both customer groups__* ](C:\Users\Acer\Desktop\Coursera Google Data Analytics\8_Google Data Analytics Capstone Complete a Case Study\Cyclistic data new\Copy\analysis\starting location.jpeg)
+![*__Figure 4.2.4.1: Starting locations in Chicago, IL for both customer groups__* ](...xxx...xxx...)
 
 
-![*__Figure 4.2.4.2: Ending locations in Chicago, IL for both customer groups__* ](C:\Users\Acer\Desktop\Coursera Google Data Analytics\8_Google Data Analytics Capstone Complete a Case Study\Cyclistic data new\Copy\analysis\ending location.jpeg)
+![*__Figure 4.2.4.2: Ending locations in Chicago, IL for both customer groups__* ](...xxx...xxx...)
 
 From the resulting map charts, it is obvious that the "**member**" customers have more fixed trip destinations than the "**casual**" group. The member's destinations are also more clustered in the center area of Chicago than the casual's destination. 
 
@@ -975,7 +975,7 @@ ggplot(data=alldata_adj)+
 ```
 
 
-![*__Figure 4.2.5.1: Grouped bar plot showing the total annual number of rides according to different days of the week__*](C:\Users\Acer\Desktop\Coursera Google Data Analytics\8_Google Data Analytics Capstone Complete a Case Study\Cyclistic data new\Copy\analysis\grouped bar chart_weekdays.jpeg)
+![*__Figure 4.2.5.1: Grouped bar plot showing the total annual number of rides according to different days of the week__*](...xxx...xxx...)
 
 
 From the weekdays bar chart, there is an obvious spike of casual customers on Saturdays and Sundays, the weekend holidays. On the other hand, the number of rides from the member group looks to be constant throughout the week, and drops to the lowest on Sundays.
@@ -1010,7 +1010,7 @@ ggplot(data=alldata_adjh)+
 ```
 
 
-![*__Figure 4.2.5.2: A grouped bar chart visualizing total annual number of rides at each hour of day__*](C:\Users\Acer\Desktop\Coursera Google Data Analytics\8_Google Data Analytics Capstone Complete a Case Study\Cyclistic data new\Copy\analysis\grouped bar chart_hourly rides.jpeg)
+![*__Figure 4.2.5.2: A grouped bar chart visualizing total annual number of rides at each hour of day__*](...xxx...xxx...)
 
 From the chart, there are obvious **spikes during 6 - 9 o'clock**, and **during 16 - 19 o'clock** "**the rush hour**" of office workers in **member** customer group. The said spikes don't appear in the casual group. 
 
@@ -1047,7 +1047,7 @@ ggplot(data=na_data)+
 ```
 
 
-![*__Figure 4.2.6.1: A pie chart summarizing number of unidentified starting or ending stations for each customer group__*](C:\Users\Acer\Desktop\Coursera Google Data Analytics\8_Google Data Analytics Capstone Complete a Case Study\Cyclistic data new\Copy\analysis\unidentified starting or ending stations_pie chart.jpeg)
+![*__Figure 4.2.6.1: A pie chart summarizing number of unidentified starting or ending stations for each customer group__*](...xxx...xxx...)
 
 According to the pie chart, both customer groups are almost at the same level of flexibility. A few percentage of "**casual**" customers is more flexible at taking and parking the bike outside any of the designated station. This is well in accordance with their recreational purposes for using the bikes.
 
